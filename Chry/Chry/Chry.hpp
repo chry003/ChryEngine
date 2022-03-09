@@ -8,5 +8,7 @@
 #include "Renderer/Buffer.hpp"
 #include "Renderer/Renderer.hpp"
 #include "Graphics/Texture.hpp"
+#include "Graphics/OrthographicCamera.hpp"
+#include "Graphics/Camera2D.hpp"
 
 #include "Core/EntryPoint.hpp"

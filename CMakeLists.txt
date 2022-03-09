@@ -37,7 +37,7 @@ add_subdirectory(${vendor}/stb)
 file(GLOB_RECURSE core_cpp "${core}/*.cpp")
 file(GLOB_RECURSE sandbox_cpp "${sandbox}/*.cpp")
 
-find_library(glfwlib libglfw.so PATHS "${deps}")
+find_library(glfwlib glfw3.dll PATHS "${deps}")
 find_library(dllib libdl-2.33.so PATHS "${deps}")
 
 add_library(Chry STATIC ${core_cpp})

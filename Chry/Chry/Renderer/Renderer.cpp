@@ -3,53 +3,26 @@
 
 namespace Chry
 {
+    Renderer::SceneData* Renderer::mRendererElements = new Renderer::SceneData;
 
-    std::unordered_map<sstr, svec<Ref<VertexArray>>> Renderer::mStoragePoint;
-
-    void Renderer::Begin()
+    void Renderer::Begin(OrthographicCamera& vCamera)
     {
+        mRendererElements->OrthographicCameraViewProjectionMatrix = vCamera.GetViewProjectionMatrix();
+    }
 
+    void Renderer::Submit(const Ref<VertexArray> &vVertexArray, const Ref<Shader> &vShader, const glm::mat4& vTransform)
+    {
+        vShader->Bind();
+        vVertexArray->Bind();
+
+        vShader->SetMat4("uViewProjectionMatrix", mRendererElements->OrthographicCameraViewProjectionMatrix);
+        vShader->SetMat4("uTransform", vTransform);
+
+        Renderer::Draw(vVertexArray);
     }
 
     void Renderer::End()
     {
 
-    }
-    
-    void Renderer::InitStoragePoint(const sstr& vName)
-    {
-        if(mStoragePoint.find(vName) == mStoragePoint.end())
-            mStoragePoint[vName] = svec<Ref<VertexArray>>();
-        else
-            ASSERT(false, "Storage is already set for this key.")
-    }
-
-    void Renderer::PushToStoragePoint(const sstr& vName, const Ref<VertexArray> &vVertexArray)
-    {
-        if(mStoragePoint.find(vName) == mStoragePoint.end())
-            ASSERT(false, "Storage is not set for this key.")
-        else
-            mStoragePoint.find(vName)->second.push_back(vVertexArray);
-    }
-
-    void Renderer::RemoveStoragePoint(const sstr &vName)
-    {
-        if(mStoragePoint.find(vName) == mStoragePoint.end())
-            ASSERT(false, "Storage is not set for this key.")
-        else
-            mStoragePoint.erase(vName);
-    }
-
-    void Renderer::DrawFromStoragePoint(const sstr& vName)
-    {
-        if(mStoragePoint.find(vName) == mStoragePoint.end())
-            ASSERT(false, "Storage is not set for this key")
-        else
-        {
-            for(u32 i = 0; i < mStoragePoint.find(vName)->second.size(); i++)
-            {
-                Renderer::Draw(mStoragePoint.find(vName)->second[i]);
-            }
-        }
     }
 }
