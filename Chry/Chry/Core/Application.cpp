@@ -11,7 +11,8 @@ namespace Chry
     {
         Window::Init();
         Window::SetEventCallback(BIND_EVENT_FN(Application::OnEvent));
-        // Window::SetVSync(false);
+        // Set Window VSync to false as it doesn't have constant time to handle loop.
+        // Window::SetWindowVSync(false);
     }
 
     void Application::OnEvent(Event& e)

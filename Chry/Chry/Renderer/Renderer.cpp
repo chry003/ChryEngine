@@ -10,13 +10,17 @@ namespace Chry
         mRendererElements->OrthographicCameraViewProjectionMatrix = vCamera.GetViewProjectionMatrix();
     }
 
-    void Renderer::Submit(const Ref<VertexArray> &vVertexArray, const Ref<Shader> &vShader, const glm::mat4& vTransform)
+    void Renderer::Submit(const Ref<VertexArray> &vVertexArray, const Ref<Material>& vMaterial, const glm::mat4& vTransform)
     {
-        vShader->Bind();
+        vMaterial->GetShader()->Bind();
         vVertexArray->Bind();
 
-        vShader->SetMat4("uViewProjectionMatrix", mRendererElements->OrthographicCameraViewProjectionMatrix);
-        vShader->SetMat4("uTransform", vTransform);
+        //vShader->SetMat4("uViewProjectionMatrix", mRendererElements->OrthographicCameraViewProjectionMatrix);
+        //vShader->SetMat4("uTransform", vTransform);
+
+        vMaterial->SetUniformValue("uViewProjectionMatrix", mRendererElements->OrthographicCameraViewProjectionMatrix);
+        vMaterial->SetUniformValue("uTransform", vTransform);
+        vMaterial->UpdateUniforms();
 
         Renderer::Draw(vVertexArray);
     }

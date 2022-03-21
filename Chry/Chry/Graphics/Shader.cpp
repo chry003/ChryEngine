@@ -162,7 +162,12 @@ namespace Chry {
 
 	GLint Shader::getUniformLocation(const GLchar* name) 
 	{
-		return glGetUniformLocation(m_ShaderID, name);
+        if(mShaderUniforms.find(name) != mShaderUniforms.end())
+            return mShaderUniforms[name];
+
+        GLint shaderUniform = glGetUniformLocation(m_ShaderID, name);
+        mShaderUniforms[name] = shaderUniform;
+        return shaderUniform;
 	}
 
 }

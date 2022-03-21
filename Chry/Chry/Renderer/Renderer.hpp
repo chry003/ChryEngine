@@ -5,6 +5,7 @@
 
 #include "Buffer.hpp"
 #include "Graphics/Shader.hpp"
+#include "Graphics/Material.hpp"
 #include "Graphics/Camera2D.hpp"
 
 namespace Chry
@@ -17,7 +18,7 @@ namespace Chry
             inline static void Draw(const Ref<VertexArray>& vVertexArray) { glDrawElements(GL_TRIANGLES, vVertexArray->GetIndexBuffer()->GetCount(), GL_UNSIGNED_INT, nullptr); }
 
             static void Begin(OrthographicCamera& vCamera);
-            static void Submit(const Ref<VertexArray>& vVertexArray, const Ref<Shader>& vShader, const glm::mat4& vTransform = glm::mat4(1.0f));
+            static void Submit(const Ref<VertexArray>& vVertexArray, const Ref<Material>& vMaterial, const glm::mat4& vTransform = glm::mat4(1.0f));
             static void End();
 
         private:

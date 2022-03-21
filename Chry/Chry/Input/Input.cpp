@@ -39,4 +39,10 @@ namespace Chry
 		return GetMousePosition().y;
 	}
 
+    glm::vec2 Input::GetMouseScroll()
+    {
+        auto* window = static_cast<GLFWwindow*>(Window::GetNativeWindow());
+        double x, y;
+    }
+
 }

@@ -17,5 +17,6 @@ namespace Chry
 		static glm::vec2 GetMousePosition();
 		static f32 GetMouseX();
 		static f32 GetMouseY();
+        static glm::vec2 GetMouseScroll();
 	};
 }

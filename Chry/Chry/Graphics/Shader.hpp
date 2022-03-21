@@ -107,10 +107,9 @@ namespace Chry {
 		void SetMat4(const sstr& name, const glm::mat4& value);
 
 		const sstr& GetName() const { return m_Name; };
+
+        const sumap<sstr, GLint>& GetActiveUniforms() const { return mShaderUniforms; }
 	
-	private:
-		GLuint m_ShaderID;
-		sstr m_Name;
 
 	private:
 		void Load(const sstr& vertexSrc, const sstr& fragmentSrc);
@@ -121,6 +120,11 @@ namespace Chry {
 		void ShaderErr(sstr desc, GLuint ShaderSourceID);
 
 		GLint getUniformLocation(const GLchar* name);
+
+    private:
+        GLuint m_ShaderID;
+        sstr m_Name;
+        sumap<sstr, GLint> mShaderUniforms;
 	};
 
 }
