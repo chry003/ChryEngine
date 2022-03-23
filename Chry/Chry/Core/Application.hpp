@@ -3,6 +3,7 @@
 #include "Graphics/Window.hpp"
 #include "Event/Event.hpp"
 #include "Layer/LayerStack.hpp"
+#include "Timer.hpp"
 
 namespace Chry
 {

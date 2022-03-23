@@ -1,0 +1,13 @@
+/home/chry/Dev/c++/Chry/build/windows/CMakeFiles/Chry.dir
+/home/chry/Dev/c++/Chry/build/windows/CMakeFiles/Sandbox.dir
+/home/chry/Dev/c++/Chry/build/windows/CMakeFiles/edit_cache.dir
+/home/chry/Dev/c++/Chry/build/windows/CMakeFiles/rebuild_cache.dir
+/home/chry/Dev/c++/Chry/build/windows/Chry/vendor/glad/CMakeFiles/glad.dir
+/home/chry/Dev/c++/Chry/build/windows/Chry/vendor/glad/CMakeFiles/edit_cache.dir
+/home/chry/Dev/c++/Chry/build/windows/Chry/vendor/glad/CMakeFiles/rebuild_cache.dir
+/home/chry/Dev/c++/Chry/build/windows/Chry/vendor/spdlog/CMakeFiles/spdlog.dir
+/home/chry/Dev/c++/Chry/build/windows/Chry/vendor/spdlog/CMakeFiles/edit_cache.dir
+/home/chry/Dev/c++/Chry/build/windows/Chry/vendor/spdlog/CMakeFiles/rebuild_cache.dir
+/home/chry/Dev/c++/Chry/build/windows/Chry/vendor/stb/CMakeFiles/stb.dir
+/home/chry/Dev/c++/Chry/build/windows/Chry/vendor/stb/CMakeFiles/edit_cache.dir
+/home/chry/Dev/c++/Chry/build/windows/Chry/vendor/stb/CMakeFiles/rebuild_cache.dir

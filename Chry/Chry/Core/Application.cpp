@@ -13,6 +13,8 @@ namespace Chry
         Window::SetEventCallback(BIND_EVENT_FN(Application::OnEvent));
         // Set Window VSync to false as it doesn't have constant time to handle loop.
         // Window::SetWindowVSync(false);
+        
+        timer.TimerInit();
     }
 
     void Application::OnEvent(Event& e)
@@ -50,10 +52,12 @@ namespace Chry
 
             for (Layer* layer : mLayerStack)
             {
-                layer->OnUpdate();
+                layer->OnUpdate(timer.DeltaTime());
             }
 
             Window::OnUpdate();
+
+            timer.Tick();
         }
     }
 

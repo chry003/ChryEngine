@@ -19,23 +19,32 @@ namespace Chry
             void Bind() const;
             void Draw() const;
 
-            inline void SetPosition(const glm::vec3& vPosition) { mPosition = vPosition; }
+            inline void SetPosition(const glm::vec3& vPosition) { mPosition = vPosition; RecalculateMatrix(); }
             inline void SetSize(const glm::vec2& vSize) { mSize = vSize; }
             inline void SetColor(const glm::vec4& vColor) { mColor = vColor; }
             inline void SetTexture(const Ref<Texture2D>& vTexture) { mTexture = vTexture; }
+            inline void SetScale(const glm::vec3& vScale) { mScale = vScale; RecalculateMatrix(); }
+            inline void SetRotation(float vRotation) { mRotation = vRotation; RecalculateMatrix(); }
 
             inline const glm::vec3& GetPosition() const { return mPosition; }
             inline const glm::vec2& GetSize() const { return mSize; }
             inline const glm::vec4& GetColor() const { return mColor; }
+            inline const glm::vec3& GetScale() const { return mScale; }
+            inline float GetRotation() const { return mRotation; }
             inline const Ref<Texture2D>& GetTexture() const { return mTexture; }
 
         private:
             void InitDrawData();
+            void RecalculateMatrix();
 
         private:
             glm::vec3 mPosition;
             glm::vec2 mSize;
             glm::vec4 mColor;
+            glm::vec3 mScale = glm::vec3(1.0f);
+            float mRotation = 0.0f;
+
+            glm::mat4 mTransformationMatrix;
 
             Ref<Material> mMaterial;
             Ref<Texture2D> mTexture;

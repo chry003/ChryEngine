@@ -1,0 +1,1 @@
+ libChry.a Chry/vendor/glad/libglad.dll.a Chry/vendor/spdlog/libspdlogd.dll.a Chry/vendor/stb/libstb.dll.a -lglfwlib-NOTFOUND -ldllib-NOTFOUND -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

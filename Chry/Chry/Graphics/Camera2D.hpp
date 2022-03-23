@@ -32,6 +32,6 @@ namespace Chry
             glm::mat4 mViewProjectionMatrix;
 
             glm::vec3 mPosition = { 0.0f, 0.0f, 0.0f };
-            float mRotation = 0.0f;
+            float mRotation = 00.0f;
     };
 }

@@ -1,0 +1,127 @@
+[
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Core/Application.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Core/Application.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Core/Application.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Core/Log.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Core/Log.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Core/Log.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Core/Timer.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Core/Timer.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Core/Timer.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Graphics/Camera2D.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Graphics/Camera2D.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Graphics/Camera2D.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Graphics/Material.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Graphics/Material.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Graphics/Material.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Graphics/OrthographicCamera.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Graphics/OrthographicCamera.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Graphics/OrthographicCamera.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Graphics/Shader.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Graphics/Shader.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Graphics/Shader.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Graphics/Texture.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Graphics/Texture.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Graphics/Texture.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Graphics/Window.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Graphics/Window.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Graphics/Window.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Input/Input.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Input/Input.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Input/Input.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Layer/Layer.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Layer/Layer.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Layer/Layer.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Layer/LayerStack.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Layer/LayerStack.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Layer/LayerStack.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Renderer/Buffer.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Renderer/Buffer.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Renderer/Buffer.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Renderer/Renderer.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Renderer/Renderer.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Renderer/Renderer.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Chry.dir/Chry/Chry/Renderer/Sprite.cpp.o -c /home/chry/Dev/c++/Chry/Chry/Chry/Renderer/Sprite.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/Chry/Renderer/Sprite.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o CMakeFiles/Sandbox.dir/Sandbox/Sandbox.cpp.o -c /home/chry/Dev/c++/Chry/Sandbox/Sandbox.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Sandbox/Sandbox.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/cc -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb -I/home/chry/Dev/c++/Chry/Chry/vendor/glad/. -g -o Chry/vendor/glad/CMakeFiles/glad.dir/glad/src/glad.c.o -c /home/chry/Dev/c++/Chry/Chry/vendor/glad/glad/src/glad.c",
+  "file": "/home/chry/Dev/c++/Chry/Chry/vendor/glad/glad/src/glad.c"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=c++17 -o Chry/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/spdlog.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/spdlog.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=c++17 -o Chry/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/stdout_sinks.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/stdout_sinks.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=c++17 -o Chry/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/color_sinks.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/color_sinks.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=c++17 -o Chry/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/file_sinks.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/file_sinks.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=c++17 -o Chry/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/async.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/async.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=c++17 -o Chry/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/cfg.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/cfg.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb  -m64 -ggdb3 -Wall -std=c++17 -g -std=c++17 -o Chry/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o -c /home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/fmt.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/src/fmt.cpp"
+},
+{
+  "directory": "/home/chry/Dev/c++/Chry/build/Debug",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DSPDLOG_COMPILED_LIB -D_GLIBCXX_USE_CXX11_ABI=0 -I/home/chry/Dev/c++/Chry/Chry/Chry -I/home/chry/Dev/c++/Chry/Sandbox -I/home/chry/Dev/c++/Chry/Chry/vendor -I/home/chry/Dev/c++/Chry/Chry/vendor/glad -I/home/chry/Dev/c++/Chry/Chry/vendor/glm -I/home/chry/Dev/c++/Chry/Chry/vendor/spdlog/include -I/home/chry/Dev/c++/Chry/Chry/vendor/stb -I/home/chry/Dev/c++/Chry/Chry/vendor/stb/.  -m64 -ggdb3 -Wall -std=c++17 -g -std=gnu++17 -o Chry/vendor/stb/CMakeFiles/stb.dir/stb_image.cpp.o -c /home/chry/Dev/c++/Chry/Chry/vendor/stb/stb_image.cpp",
+  "file": "/home/chry/Dev/c++/Chry/Chry/vendor/stb/stb_image.cpp"
+}
+]
